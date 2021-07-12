@@ -9,7 +9,6 @@ void Window::initializeGL() {
 	initializeOpenGLFunctions(); //初始化当前OpenGL环境
 	//GLclampf：这也是一个四字节的精度浮点变量，但OpenGL的使用GLclampf时，它是表明这个特定变量的值应始终介于0.0和1.0。
 	glClearColor(1.0f, 1.0f, 1.0f, 1.0f);//设置清除颜色
-	
 }
 
 
